@@ -1,8 +1,8 @@
 #include <Stepper.h>
 int stepsPerRevolution = 2048;
-int motSpeed = 12;
+int motSpeed = 5;
 Stepper myStepper(stepsPerRevolution,8,10,9,11);
-int dt = 1500;
+int dt = 1000;
 
 void setup() {
   // put your setup code here, to run once:
